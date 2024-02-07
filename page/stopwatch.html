@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/SW.css">
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a class="nca1" href="../time.html">时间</a></li>
+            <li><a class="nca2" href="./Alarm_clock.html">闹钟</a></li>
+            <li><a class="nca3" href="./countdown.html">倒计时</a></li>
+            <li><a class="nca4" href="./stopwatch.html">计时器</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="time">
+            <span class="digit" id="hr">00</span>
+                <span class="txt">时</span>
+            <span class="digit" id="min">00</span>
+                <span class="txt">分</span>
+            <span class="digit" id="sec">00</span>
+                <span class="txt">秒</span>
+            <span class="digit" id="count">00</span>
+                <span class="txt">毫秒</span>
+        </div>
+        <div id="btns">
+            <button class="btn" id="start">开始</button>
+            <button class="btn" id="stop">暂停</button>
+            <button class="btn" id="reset">重置</button>
+            <button class="btn" id="write">记录</button>
+
+        </div>
+    </div>
+    <script src="../scripts/SW.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.nca3{
+    background-color: #060810;
+    border-bottom: 5px solid #00ff80
+}
+.s4c{
+    border: 2px solid white;
+    width: 70px;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+}
+#s4_down{
+    border: 2px solid white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+.smallbox{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+p{
+    color: white;
+}
+input{
+    color: white;
+}
